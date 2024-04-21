@@ -1,0 +1,57 @@
+ul li a , ol li a{
+    color: white; 
+    cursor: pointer;
+}
+
+ul li a:hover,
+ol li a:hover {
+    color: lightblue; 
+}
+
+.top-button{
+    scroll-behavior: smooth; 
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+/* Media Queries para tamaños de pantalla específicos */
+@media only screen and (min-width: 600px) {
+    /* Estilos para dispositivos de tamaño medio */
+    ul li a,
+    ol li a {
+        font-size: 14px; 
+    }
+
+    aside {
+        padding: 10px; 
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Estilos para tabletas y dispositivos más grandes */
+    ul li a,
+    ol li a {
+        font-size: 16px; 
+    }
+
+    aside {
+        padding: 20px; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Estilos para pantallas de escritorio */
+    ul li a,
+    ol li a {
+        font-size: 18px; 
+    }
+
+    aside {
+        background-color: lightblue; 
+    }
+}
